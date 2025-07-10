@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Você, Amor 💖</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fdeff9, #ec38bc, #7303c0);
+      color: white;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px #00000080;
+    }
+
+    p {
+      font-size: 1.5em;
+      max-width: 600px;
+      margin: 10px auto;
+      text-shadow: 1px 1px 2px #00000080;
+    }
+
+    audio {
+      margin-top: 20px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      background-color: white;
+      color: #ec38bc;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      font-size: 1em;
+      text-decoration: none;
+      box-shadow: 2px 2px 6px #00000040;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #ffe1f0;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Ana Livia ❤️</h1>
+  <p>Essa página é só pra você, pra te lembrar o quanto você é especial pra mim. Toda vez que os "anjos cantam", meu coração canta também... só por você. 🌟</p>
+
+  <!-- Mude o src para o caminho do seu arquivo MP3 -->
+  <audio controls autoplay loop>
+    <source src="https://s51.aconvert.com/convert/p3r68-cdx67/1iy38-ubf7o.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio :(
+  </audio>
+
+  <a class="btn" href="https://www.letras.mus.br/jorge-e-mateus/anjos-cantam/" target="_blank">Ver letra da música</a>
+</body>
+</html>
